@@ -24,12 +24,13 @@ img {
     opacity: 30%;
 
     height: 10vw;
-    width: 40vw;
+    width: 38vw;
 
     top: 200px;
 }
 
 .info {
+    height: 100vh;
     width: 60vw;
 }
 
@@ -37,4 +38,9 @@ form {
     display: flex;
     
     padding: 5px;
+}
+
+form input {
+    width: 600px;
+    height: 40px;
 }
