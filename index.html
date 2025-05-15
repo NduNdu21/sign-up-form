@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img src="bg-graphic.jpg" alt="Photo of tall buildings in black & white">
@@ -14,16 +16,30 @@
     
     <div class="info">
         <h1>
+            This is not a real online service! You know you need something like this in your life 
+            to help you realize your deepest dreams. Sign up <em>now</em> to get started.
 
+            You know you want to.
         </h1>
 
         <form action="" method="post">
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
-            <input type="email" name="" id="">
-            <input type="text" name="" id="">
-            <input type="password" name="" id="">
-            <input type="password" name="" id="">
+            <label for="fname">First name:</label>
+            <input type="text" name="firstname" id="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" name="lastname" id="lname">
+
+            <label for="email">Email address:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone number:</label>
+            <input type="text" name="phonenum" id="phone">
+
+            <label for="passw">Password:</label>
+            <input type="password" name="passw" id="passw">
+
+            <label for="conpassw">Confirm password:</label>
+            <input type="password" name="conpassw" id="conpassw">
         </form>
 
         <button type="submit">Create Account</button>
