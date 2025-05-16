@@ -34,8 +34,16 @@ img {
     width: 60vw;
 }
 
+h1  {
+    margin: 100px 25px 50px 25px;
+
+    font-size: 4rem;
+}
+
 form {
     display: flex;
+
+    box-shadow: 10px 10px 5px;
     
     padding: 5px;
 }
