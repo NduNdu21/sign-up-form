@@ -41,14 +41,15 @@ h1  {
 }
 
 form {
-    display: flex;
+    display: flex wrap;
 
+    height: 33vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
-    padding: 5px;
+    padding: 70px 100px;
 }
 
 form input {
-    width: 600px;
+    width: 400px;
     height: 40px;
 }
