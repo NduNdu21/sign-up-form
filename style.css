@@ -43,13 +43,22 @@ h1  {
 form {
     display: flex wrap;
 
-    height: 33vh;
+    height: 28vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
     padding: 70px 100px;
 }
 
 form input {
-    width: 400px;
+    width: 350px;
     height: 40px;
+
+    border: 2px solid #E5E7EB;
+}
+
+form label {
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    text-wrap: nowrap;
 }
