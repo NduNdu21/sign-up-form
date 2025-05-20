@@ -44,6 +44,8 @@ form {
     display: flex;
     flex-direction: column;
 
+    gap: 2rem;
+
     height: 28vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
@@ -66,7 +68,11 @@ form input {
     width: 350px;
     height: 40px;
 
+    padding: 2px 10px;
     border: 2px solid #E5E7EB;
+    border-radius: 10px;
+
+    font-size: 1.25rem;
 }
 
 form label {
@@ -74,4 +80,17 @@ form label {
     font-size: 1rem;
 
     text-wrap: nowrap;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 30px;
+
+    height: 80px;
+    width: 320px;
+
+    border: 1px solid white;
+    border-radius: 15px;
+
+    font-size: 1.25rem;
 }
