@@ -109,6 +109,10 @@ button {
     color: white;
 }
 
+button:active {
+    background-color: black;
+}
+
 #login-line {
     margin-top: 20px;
     margin-left: 30px;
