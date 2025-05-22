@@ -27,6 +27,15 @@ img {
     width: 39vw;
 
     top: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2 {
+    font-size: 3rem;
+    color: white;
 }
 
 .info {
